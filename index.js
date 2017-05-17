@@ -5,6 +5,17 @@
 // services such as S3, DynamoDB, etc
 var AWS = require('aws-sdk');
 
+// Responses
+var successResponse = {
+	'statusCode': 200,
+	'body': 'Request Successful'
+};
+
+var failResponse = {
+	'statusCode': 500,
+	'body': 'Request Unsuccessful'
+};
+
 exports.handler = function(event, context, callback) {
 
 	// process JSON payload and send response
@@ -12,8 +23,8 @@ exports.handler = function(event, context, callback) {
 	//...
 
 	// exit function for a successful response 
-	//callback(null, response);
+	//callback(null, successResponse);
 
 	// exit function for an unsuccessful response 
-	//callback(err, response);
+	//callback(err, failResponse);
 };
