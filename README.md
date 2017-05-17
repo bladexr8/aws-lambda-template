@@ -10,12 +10,12 @@ This is a Lambda function template to kick start Lambda function development.
 - ensure you have aws command line tool installed (http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
 ## Create Lambda function
-$ npm create
+$ npm run-script create
 
 This will create the Lambda Function in the AWS account you are currently logged into through the AWS CLI.
 
 ## Deploy Lambda Function
-$ npm create
+$ npm run-script create
 
 This will create a ZIP archive and deploy the Lambda Function to the AWS account you are currently logged into through the AWS CLI.
 
