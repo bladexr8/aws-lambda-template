@@ -15,7 +15,7 @@ $ npm run-script create
 This will create the Lambda Function in the AWS account you are currently logged into through the AWS CLI.
 
 ## Deploy Lambda Function
-$ npm run-script create
+$ npm run-script deploy
 
 This will create a ZIP archive and deploy the Lambda Function to the AWS account you are currently logged into through the AWS CLI.
 
